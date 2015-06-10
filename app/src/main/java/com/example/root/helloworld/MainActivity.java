@@ -25,11 +25,12 @@ public class MainActivity extends AppCompatActivity{
         Button button3 = (Button) findViewById(R.id.button3);
         Button button4 = (Button) findViewById(R.id.button4);
         Button button5 = (Button) findViewById(R.id.button5);
+        Button button6 = (Button) findViewById(R.id.button6);
 
         button1.setOnClickListener(new OnClickListener(){
             @Override
             public void onClick(View v) {
-                toasttext = "First App.";
+                toasttext = "SPOTIFY STREAMER";
                 toast = Toast.makeText(getApplicationContext(), toasttext, duration);
                 toast.show();
             }
@@ -40,7 +41,7 @@ public class MainActivity extends AppCompatActivity{
         button2.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                toasttext = "second App.";
+                toasttext = "SCORES APP";
                 toast = Toast.makeText(getApplicationContext(), toasttext,duration);
                 toast.show();
             }
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity{
         button3.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                toasttext = "third App.";
+                toasttext = "LIBRARY APP";
                 toast = Toast.makeText(getApplicationContext(), toasttext,duration);
                 toast.show();
             }
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity{
         button4.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                toasttext = "Fourth App.";
+                toasttext = "BUILD IT BIGGER";
                 toast = Toast.makeText(getApplicationContext(), toasttext,duration);
                 toast.show();
             }
@@ -67,7 +68,16 @@ public class MainActivity extends AppCompatActivity{
         button5.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                toasttext = "Fifth App.";
+                toasttext = "XYZ READER";
+                toast = Toast.makeText(getApplicationContext(), toasttext,duration);
+                toast.show();
+            }
+        });
+
+        button6.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                toasttext = "Capstone Project";
                 toast = Toast.makeText(getApplicationContext(), toasttext,duration);
                 toast.show();
             }

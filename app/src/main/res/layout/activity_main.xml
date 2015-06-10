@@ -23,10 +23,10 @@
         android:layout_height="70dp"
         android:background="@color/pink"
         android:layout_centerHorizontal="true"
-        android:text="@string/button_text1"
+        android:text="@string/button_text2"
         android:id="@+id/button2"
         android:layout_below="@+id/button1"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="10dp" />
 
     <Button
         style="?android:borderlessButtonStyle"
@@ -34,10 +34,10 @@
         android:layout_height="70dp"
         android:background="@color/pink"
         android:layout_centerHorizontal="true"
-        android:text="@string/button_text1"
+        android:text="@string/button_text3"
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="10dp" />
 
     <Button
         style="?android:borderlessButtonStyle"
@@ -45,10 +45,10 @@
         android:layout_height="70dp"
         android:background="@color/pink"
         android:layout_centerHorizontal="true"
-        android:text="@string/button_text1"
+        android:text="@string/button_text4"
         android:id="@+id/button4"
         android:layout_below="@+id/button3"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="10dp" />
 
     <Button
         style="?android:borderlessButtonStyle"
@@ -56,8 +56,20 @@
         android:layout_height="70dp"
         android:background="@color/pink"
         android:layout_centerHorizontal="true"
-        android:text="@string/button_text1"
+        android:text="@string/button_text5"
         android:id="@+id/button5"
         android:layout_below="@+id/button4"
         android:layout_marginTop="15dp" />
+
+    <Button
+        style="?android:borderlessButtonStyle"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@color/pinkdeg"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_text5"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="10dp" />
+
 </RelativeLayout>

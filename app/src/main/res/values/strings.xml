@@ -1,10 +1,16 @@
 <resources>
-    <string name="app_name">HelloWorld</string>
+    <string name="app_name">Project0</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world" align="center">Project Zero!</string>
     <string name="action_settings">Settings</string>
-    <string name="button_text1">My First App.</string>
+    <string name="button_text1">SPOTIFY STREAMER</string>
+    <string name="button_text2">SCORES APP</string>
+    <string name="button_text3">LIBRARY APP</string>
+    <string name="button_text4">BUILD IT BIGGER</string>
+    <string name="button_text5">XYZ READER</string>
+    <string name="button_text6">Capstone Project</string>
     <color name="pink">#f06292</color>
     <color name="blue">#283593</color>
+    <color name="pinkdeg">#f48fb1</color>
 
 </resources>
