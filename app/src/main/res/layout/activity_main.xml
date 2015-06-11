@@ -1,75 +1,85 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
     android:background="@color/blue">
-
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <Button
         style="?android:borderlessButtonStyle"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
+        android:onClick="showToast"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
         android:background="@color/pink"
         android:layout_centerHorizontal="true"
         android:text="@string/button_text1"
-        android:id="@+id/button1"
-        android:layout_marginTop="10dp" />
+        android:id="@+id/spotify"
+        android:layout_marginTop="@dimen/headingmargin" />
 
     <Button
         style="?android:borderlessButtonStyle"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
+        android:onClick="showToast"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
         android:background="@color/pink"
         android:layout_centerHorizontal="true"
         android:text="@string/button_text2"
-        android:id="@+id/button2"
-        android:layout_below="@+id/button1"
-        android:layout_marginTop="10dp" />
+        android:id="@+id/scores"
+        android:layout_below="@+id/spotify"
+        android:layout_marginTop="@dimen/headingmargin" />
 
     <Button
         style="?android:borderlessButtonStyle"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
+        android:onClick="showToast"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
         android:background="@color/pink"
         android:layout_centerHorizontal="true"
         android:text="@string/button_text3"
-        android:id="@+id/button3"
-        android:layout_below="@+id/button2"
-        android:layout_marginTop="10dp" />
+        android:id="@+id/library"
+        android:layout_below="@+id/scores"
+        android:layout_marginTop="@dimen/headingmargin" />
 
     <Button
         style="?android:borderlessButtonStyle"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
+        android:onClick="showToast"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
         android:background="@color/pink"
         android:layout_centerHorizontal="true"
         android:text="@string/button_text4"
-        android:id="@+id/button4"
-        android:layout_below="@+id/button3"
-        android:layout_marginTop="10dp" />
+        android:id="@+id/builditbigger"
+        android:layout_below="@+id/library"
+        android:layout_marginTop="@dimen/headingmargin" />
 
     <Button
         style="?android:borderlessButtonStyle"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
+        android:onClick="showToast"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
         android:background="@color/pink"
         android:layout_centerHorizontal="true"
         android:text="@string/button_text5"
-        android:id="@+id/button5"
-        android:layout_below="@+id/button4"
-        android:layout_marginTop="15dp" />
+        android:id="@+id/xyzreader"
+        android:layout_below="@+id/builditbigger"
+        android:layout_marginTop="@dimen/headingmargin" />
 
     <Button
         style="?android:borderlessButtonStyle"
-        android:layout_width="250dp"
-        android:layout_height="70dp"
+        android:onClick="showToast"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
         android:background="@color/pinkdeg"
         android:layout_centerHorizontal="true"
-        android:text="@string/button_text5"
-        android:id="@+id/button6"
-        android:layout_below="@+id/button5"
-        android:layout_marginTop="10dp" />
+        android:text="@string/button_text6"
+        android:id="@+id/caproject"
+        android:layout_below="@+id/xyzreader"
+        android:layout_marginTop="@dimen/headingmargin" />
+    </RelativeLayout>
 
-</RelativeLayout>
+</ScrollView>
